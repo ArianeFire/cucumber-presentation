@@ -3,6 +3,7 @@ package ma.seydou.sqli.presentation;
 import org.junit.Assert;
 
 import cucumber.api.java8.En;
+import ma.seydou.sqli.presentation.calculator.CalculateUtils;
 
 public class CalculatorStepDef implements En{
 
@@ -22,7 +23,7 @@ public class CalculatorStepDef implements En{
 		});
 
 		Then("^It should print (\\d+)$", (Integer result) -> {
-			Assert.assertEquals(CalculateUtils.perform(a, b, operator), result);
+			Assert.assertEquals(result, CalculateUtils.perform(a, b, operator));
 		});
 		
 	}

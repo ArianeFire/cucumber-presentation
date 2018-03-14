@@ -1,4 +1,4 @@
-package ma.seydou.sqli.presentation;
+package ma.seydou.sqli.presentation.calculator;
 
 public interface CalculatorInterface {
 	Integer calculate(Integer a, Integer b);

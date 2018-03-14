@@ -1,4 +1,4 @@
-package ma.seydou.sqli.presentation;
+package ma.seydou.sqli.presentation.calculator;
 
 public class CalculateUtils {
 	
